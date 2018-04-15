@@ -1,0 +1,35 @@
+{
+  "name": "stinky-code",
+  "description": "This is some seriously stinky code.",
+  "keywords": [],
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/corywebb/stinky-code",
+  "authors": [
+    {
+      "name": "corywebb",
+      "homepage": "http://reaktivstudios.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/corywebb/stinky-code/issues",
+    "source": "https://github.com/corywebb/stinky-code"
+  },
+  "config": {
+    "sort-order": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^5.2|^7"
+  },
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+    "squizlabs/php_codesniffer": "^3.2",
+    "wp-coding-standards/wpcs": "0.14.0"
+  },
+  "scripts": {
+    "install-codestandards": "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+  }
+}
