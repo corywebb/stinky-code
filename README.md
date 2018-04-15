@@ -1,8 +1,8 @@
-#Stinky Code
+# Stinky Code
 
 This is a sample project for demonstrating working with PHPCS and WPCS while developing for WordPress.
 
-##Installation
+## Installation
 
 1. Clone the repository.
 
